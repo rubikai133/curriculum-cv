@@ -45,6 +45,8 @@
     text-align: center;
     font-size:  xx-large;
     border-bottom: 2px #FFF7F0 solid;
+    cursor: pointer;
+    
 }
 .info .tituloinfo{
     color: aliceblue;
@@ -71,4 +73,45 @@ a.one:visited{
 a.one:hover{
     color: aliceblue;
     text-decoration: none;
+}
+footer{
+    background-color:#D0E37F;
+    color: aliceblue;
+    font-family: 'Nerko One', cursive;
+    margin: 3%;
+}
+.redes{
+    text-align: center;
+}
+.i{
+    width: 40px;
+    height: 40px;
+    
+    
+}
+.h34{
+    text-align: center;
+}
+nav{
+    color: #030e20 ; font-family: 'Nerko One', cursive;
+    display: flex;
+    flex-direction: row;
+    background-color: #D0E37F;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;    
+}
+
+nav a{
+    text-decoration: none;
+    width: 100%;
+    color: black;
+    cursor: pointer;
+}
+
+nav :hover{
+    color: aliceblue;
+    text-decoration: none;
+    background-color: black;
+    cursor: pointer;
 }
