@@ -95,7 +95,6 @@ footer{
 nav{
     color: #030e20 ; font-family: 'Nerko One', cursive;
     display: flex;
-    flex-direction: row;
     background-color: #D0E37F;
     text-align: center;
     padding: 15px;
@@ -107,6 +106,7 @@ nav a{
     width: 100%;
     color: black;
     cursor: pointer;
+    padding: 1px;
 }
 
 nav :hover{
@@ -115,3 +115,4 @@ nav :hover{
     background-color: black;
     cursor: pointer;
 }
+
